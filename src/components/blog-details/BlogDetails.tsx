@@ -14,7 +14,7 @@ function BlogDetails() {
         <div className="row g-4">
           <div className="col-xl-9">
             <div className="tz-blog-details__image">
-              <img src="/images/blog/blog-details-img1.jpg" alt="img" />
+              <img src="https://digiflow-html.netlify.app/assets/images/blog/blog-details-img1.jpg" alt="img" />
             </div>
             <div className="tz-blog-details__meta tz-text-m">
               <span className="tz-blog-details__category tz-text-m tz-text-primary">
@@ -70,12 +70,12 @@ function BlogDetails() {
             <div className="row g-4 tz-pt-lg-30 tz-pt-10">
               <div className="col-md-6">
                 <div className="tz-blog-details__image">
-                  <img src="/images/blog/blog-details-img2.jpg" alt="img" />
+                  <img src="https://digiflow-html.netlify.app/assets/images/blog/blog-details-img2.jpg" alt="img" />
                 </div>
               </div>
               <div className="col-md-6">
                 <div className="tz-blog-details__image">
-                  <img src="/images/blog/blog-details-img3.jpg" alt="img" />
+                  <img src="https://digiflow-html.netlify.app/assets/images/blog/blog-details-img3.jpg" alt="img" />
                 </div>
               </div>
             </div>

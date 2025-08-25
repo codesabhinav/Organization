@@ -8,7 +8,7 @@ function Footer() {
       <footer className="tz-footer d-flex align-items-center justify-content-end">
         <div className="tz-footer__shape" />
         <img
-          src="/images/footer/footer-texture.png"
+          src="https://digiflow-html.netlify.app/assets/images/footer/footer-texture.png"
           alt="texture"
           className="tz-footer__texture"
         />
@@ -29,12 +29,12 @@ function Footer() {
                     performance
                   </p>
                 </div>
-                <FooterSocial />
+                {/* <FooterSocial /> */}
               </div>
               <div className="col-xl-8">
                 <div className="tz-footer-right">
                   <img
-                    src="/images/footer/shadow-brand-title.png"
+                    src="https://digiflow-html.netlify.app/assets/images/footer/shadow-brand-title.png"
                     alt="shadow-img"
                     className="tz-footer__shadow"
                   />
@@ -46,12 +46,6 @@ function Footer() {
                         </Link>
                         <Link href="/about" className="tz-footer__menu-link">
                           ABOUT US
-                        </Link>
-                        <Link href="/pricing" className="tz-footer__menu-link">
-                          PRICING PLAN
-                        </Link>
-                        <Link href="/blog" className="tz-footer__menu-link">
-                          BLOG
                         </Link>
                       </div>
                       <div className="tz-buttons">
@@ -99,14 +93,14 @@ function Footer() {
                                 Our portfolio
                               </Link>
                             </li>
-                            <li>
+                            {/* <li>
                               <Link
                                 href="/team"
                                 className="tz-footer__link tz-text-l"
                               >
                                 Our Team
                               </Link>
-                            </li>
+                            </li> */}
                           </ul>
                         </div>
                       </div>
@@ -117,7 +111,7 @@ function Footer() {
                           <ul className="tz-footer__links">
                             <li>
                               <Link
-                                href="/service-1"
+                                href="/service-details/web-development"
                                 className="tz-footer__link tz-text-l"
                               >
                                 Web Development
@@ -125,26 +119,50 @@ function Footer() {
                             </li>
                             <li>
                               <Link
-                                href="/service-1"
+                                href="/service-details/software-development"
                                 className="tz-footer__link tz-text-l"
                               >
-                                Mobile Development
+                               software-development
                               </Link>
                             </li>
                             <li>
                               <Link
-                                href="/service-1"
+                                href="/service-details/digital-marketing"
                                 className="tz-footer__link tz-text-l"
                               >
-                                Data analytics
+                                digital-marketing
                               </Link>
                             </li>
                             <li>
                               <Link
-                                href="/service-1"
+                                href="/service-details/erp-development"
                                 className="tz-footer__link tz-text-l"
                               >
-                                Network Connectivity
+                                erp-development
+                              </Link>
+                            </li>
+                             <li>
+                              <Link
+                                href="/service-details/cybersecurity-service"
+                                className="tz-footer__link tz-text-l"
+                              >
+                                Cybersecurity Service
+                              </Link>
+                            </li>
+                             <li>
+                              <Link
+                                href="/service-details/internet-of-things-iot"
+                                className="tz-footer__link tz-text-l"
+                              >
+                                Internet of Things (IoT)
+                              </Link>
+                            </li>
+                             <li>
+                              <Link
+                                href="/service-details/dedicated-resource"
+                                className="tz-footer__link tz-text-l"
+                              > 
+                                Dedicated Resource
                               </Link>
                             </li>
                           </ul>
@@ -163,7 +181,7 @@ function Footer() {
                                 Faq
                               </Link>
                             </li>
-                            <li>
+                            {/* <li>
                               <Link
                                 href="/blog"
                                 className="tz-footer__link tz-text-l"
@@ -178,7 +196,7 @@ function Footer() {
                               >
                                 Support Area
                               </Link>
-                            </li>
+                            </li> */}
                             <li>
                               <Link
                                 href="/faq"
@@ -194,14 +212,14 @@ function Footer() {
                     {/* Copyright row */}
                     <div className="tz-footer__bottom">
                       <div className="tz-footer__copyright tz-text-l">
-                        Copyright © 2025 DigiFlow
+                        Copyright © 2025 AgnicoreAI
                       </div>
-                      <div className="tz-footer__credits tz-text-l">
-                        Designed By
+                      {/* <div className="tz-footer__credits tz-text-l">
+                        Designed By 
                         <Link href="/" className="tz-footer__credit-link">
-                          XYZ
+                           Om Chevli
                         </Link>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>

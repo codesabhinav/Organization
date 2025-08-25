@@ -18,7 +18,7 @@ function Offcanvas({
             <div className="row g-0">
               <div className="col-6">
                 <Link href="/">
-                  <img src="/images/logo.png" alt="logo" />
+                  <img src="https://digiflow-html.netlify.app/assets/images/logo.png" alt="logo" />
                 </Link>
               </div>
               <div className="col-6 text-end">

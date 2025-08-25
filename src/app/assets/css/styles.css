@@ -6458,7 +6458,7 @@ textarea:focus {
   overflow: hidden;
 }
 .tz-testimonial1-brands__slider-img {
-  opacity: 0.3;
+  opacity:1;
 }
 .tz-testimonial1-brands .swiper-wrapper {
   transition-timing-function: linear;
@@ -7844,3 +7844,4 @@ textarea:focus {
 }
 
 /*# sourceMappingURL=styles.css.map */
+

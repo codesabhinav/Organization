@@ -24,31 +24,31 @@ const WhoWeAre = React.memo(function WhoWeAre({
                 <SectionSubtitle subtitle="WHO WE ARE" />
                 <SectionTitle title="Our agency knows work dominates our lives" />
               </div>
-              <img src="/images/wwa/wwa1-img.jpg" alt="img" />
+              <img src="https://digiflow-html.netlify.app/assets/images/wwa/wwa1-img.jpg" alt="img" />
             </div>
             <div className="col-xl-7">
               <div className="row g-4">
                 <div className="col-xl-4 col-md-6">
                   <div className="tz-wwa1-shape">
-                    <img src="/images/wwa/wwa1-shape.svg" alt="img" />
+                    <img src="https://digiflow-html.netlify.app/assets/images/wwa/wwa1-shape.svg" alt="img" />
                   </div>
                 </div>
                 <div className="col-xl-4 col-md-6">
                   <div className="tz-wwa1-card">
                     <img
-                      src="/images/wwa/wwa1-muted-trishape.svg"
+                      src="https://digiflow-html.netlify.app/assets/images/wwa/wwa1-muted-trishape.svg"
                       alt="img"
                       className="tz-wwa1-card__trishape-muted"
                     />
                     <img
-                      src="/images/wwa/wwa1-active-trishape.svg"
+                      src="https://digiflow-html.netlify.app/assets/images/wwa/wwa1-active-trishape.svg"
                       alt="img"
                       className="tz-wwa1-card__trishape-active"
                     />
                     <div className="tz-wwa1-experience tz-text-neutral5">
                       <div className="tz-wwa1-experience__counter">
                         <h5 className="tz-wwa1-experience__counter-number tz-cn">
-                          <CountUp end={25} enableScrollSpy={true} />
+                          <CountUp end={5} enableScrollSpy={true} />
                         </h5>
                         <span className="tz-wwa1-experience__counter-plus tz-display-1 fw-light">
                           +
@@ -63,19 +63,19 @@ const WhoWeAre = React.memo(function WhoWeAre({
                 <div className="col-xl-4 col-md-6">
                   <div className="tz-wwa1-card">
                     <img
-                      src="/images/wwa/wwa1-muted-trishape.svg"
+                      src="https://digiflow-html.netlify.app/assets/images/wwa/wwa1-muted-trishape.svg"
                       alt="img"
                       className="tz-wwa1-card__trishape-muted"
                     />
                     <img
-                      src="/images/wwa/wwa1-active-trishape.svg"
+                      src="https://digiflow-html.netlify.app/assets/images/wwa/wwa1-active-trishape.svg"
                       alt="img"
                       className="tz-wwa1-card__trishape-active"
                     />
                     <div className="tz-wwa1-experience tz-text-neutral5">
                       <div className="tz-wwa1-experience__counter">
                         <h5 className="tz-wwa1-experience__counter-number-stroke tz-cn">
-                          <CountUp end={45} enableScrollSpy={true} />
+                          <CountUp end={10} enableScrollSpy={true} />
                         </h5>
                         <span className="tz-wwa1-experience__counter-plus tz-display-1 fw-light">
                           +
@@ -90,12 +90,12 @@ const WhoWeAre = React.memo(function WhoWeAre({
                 <div className="col-xl-4 col-md-6">
                   <div className="tz-wwa1-card">
                     <img
-                      src="/images/wwa/wwa1-muted-trishape.svg"
+                      src="https://digiflow-html.netlify.app/assets/images/wwa/wwa1-muted-trishape.svg"
                       alt="img"
                       className="tz-wwa1-card__trishape-muted"
                     />
                     <img
-                      src="/images/wwa/wwa1-active-trishape.svg"
+                      src="https://digiflow-html.netlify.app/assets/images/wwa/wwa1-active-trishape.svg"
                       alt="img"
                       className="tz-wwa1-card__trishape-active"
                     />
@@ -117,12 +117,12 @@ const WhoWeAre = React.memo(function WhoWeAre({
                 <div className="col-xl-4 col-md-6">
                   <div className="tz-wwa1-card">
                     <img
-                      src="/images/wwa/wwa1-muted-trishape.svg"
+                      src="https://digiflow-html.netlify.app/assets/images/wwa/wwa1-muted-trishape.svg"
                       alt="img"
                       className="tz-wwa1-card__trishape-muted"
                     />
                     <img
-                      src="/images/wwa/wwa1-active-trishape.svg"
+                      src="https://digiflow-html.netlify.app/assets/images/wwa/wwa1-active-trishape.svg"
                       alt="img"
                       className="tz-wwa1-card__trishape-active"
                     />
@@ -144,10 +144,10 @@ const WhoWeAre = React.memo(function WhoWeAre({
                 <div className="col-xl-4 col-md-6">
                   <div className="tz-wwa1-card__arrow">
                     <Link href="/">
-                      <img src="/images/wwa/wwa1-arrow.png" alt="img" />
+                      <img src="https://digiflow-html.netlify.app/assets/images/wwa/wwa1-arrow.png" alt="img" />
                     </Link>
                   </div>
-                  <WhoWeAreSocial />
+                  {/* <WhoWeAreSocial /> */}
                 </div>
               </div>
             </div>

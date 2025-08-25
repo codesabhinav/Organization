@@ -8,17 +8,17 @@ import { Autoplay } from "swiper/modules";
 function BrandSlider1() {
   return (
     <>
-      <div className="tz-testimonial1-brands tz-pt-lg-120 tz-pt-60">
-        <p className="tz-testimonial1-brands__title tz-text-xl tz-text-neutral5 text-uppercase">
+      <div className="tz-testimonial2-brands tz-pt-lg-120 tz-pt-60">
+        <p className="tz-testimonial2-brands__title tz-text-xl tz-text-neutral5 text-uppercase">
           TRUSTED BY <br />
           EXCEPTIONAL BRANDS
         </p>
-        <div className="tz-testimonial1-brands__slider">
+        <div className="tz-testimonial2-brands__slider">
           <div className="brand-carousel">
-            <div className="swiper-wrapper d-flex align-items-center">
+            <div className="swiper-wrapper d-flex align-items-center  rounded-3 gap-2" >
               <Swiper
                 modules={[Autoplay]}
-                spaceBetween={0}
+                spaceBetween={16}
                 speed={4000}
                 slidesPerView={3}
                 autoplay={{
@@ -51,11 +51,11 @@ function BrandSlider1() {
               >
                 {brandImages.map((brand, index) => (
                   <SwiperSlide key={index}>
-                    <div key={index} className="swiper-slide">
+                    <div key={index} className="p-4 swiper-slide bg-white rounded-3">
                       <img
                         src={brand.imageSrc}
                         alt="Brand Logo"
-                        className="tz-testimonial1-brands__slider-img"
+                        style={{  minWidth:"120px" , objectFit: "cover" }}
                       />
                     </div>
                   </SwiperSlide>

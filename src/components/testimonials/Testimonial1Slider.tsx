@@ -85,7 +85,7 @@ function Testimonial1Slider() {
                           {slide.designation}
                         </p>
                         <img
-                          src="/images/testimonial/testimonial1-quote.svg"
+                          src="https://digiflow-html.netlify.app/assets/images/testimonial/testimonial1-quote.svg"
                           alt="shape"
                           className="tz-testimonial1-card__quote"
                         />

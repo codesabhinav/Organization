@@ -53,7 +53,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
           <div className="tz-service1-card__content">
             <div className="tz-service1-card__shape d-flex justify-content-center tz-mb-20 tz-mb-lg-40">
               <img
-                src="/images/service/service1-card-shape1.svg"
+                src="https://digiflow-html.netlify.app/assets/images/service/service1-card-shape1.svg"
                 alt="Web Design Icon"
               />
             </div>
@@ -73,7 +73,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
                 <div className="col-6">
                   <div className="d-flex justify-content-end">
                     <img
-                      src="/images/service/service1-card-icon.png"
+                      src="https://digiflow-html.netlify.app/assets/images/service/service1-card-icon.png"
                       alt="Arrow Icon"
                     />
                   </div>

@@ -12,7 +12,7 @@ function BreadCrumb({ title }: BreadCrumbProps) {
       <section
         className="tz-breadcrumb"
         style={{
-          backgroundImage: 'url("/images/breadcrumb/breadcrumb-img.jpg")',
+          backgroundImage: 'url("https://digiflow-html.netlify.app/assets/images/breadcrumb/breadcrumb-img.jpg")',
         }}
       >
         <div className="tz-breadcrumb__overlay" />

@@ -25,7 +25,7 @@ function About2() {
               </div>
               <div className="row g-4">
                 <div className="col-md-5">
-                  <img src="/images/about/about2-img1.jpg" alt="img" />
+                  <img src="https://digiflow-html.netlify.app/assets/images/about/about2-img1.jpg" alt="img" />
                 </div>
                 <div className="col-md-7">
                   <div className="tz-about2-content">
@@ -70,7 +70,7 @@ function About2() {
             </div>
             <div className="col-xl-3">
               <div className="tz-about2-experience">
-                <img src="/images/about/about2-img2.jpg" alt="img" />
+                <img src="https://digiflow-html.netlify.app/assets/images/about/about2-img2.jpg" alt="img" />
                 <div className="tz-about2-experience__counter tz-text-neutral5 tz-pt-30 tz-pt-lg-60">
                   <h5 className="tz-about2-experience__number tz-cn">
                     <CountUp end={25} enableScrollSpy={true} />

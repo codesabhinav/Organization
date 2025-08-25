@@ -11,22 +11,22 @@ function Banner2() {
       <div className="tz-banner2">
         <div className="container">
           <img
-            src="/images/banner/banner1-gradient-left.png"
+            src="https://digiflow-html.netlify.app/assets/images/banner/banner1-gradient-left.png"
             alt="img"
             className="position-absolute bottom-0 start-0"
           />
           <img
-            src="/images/banner/banner1-gradient-right.png"
+            src="https://digiflow-html.netlify.app/assets/images/banner/banner1-gradient-right.png"
             alt="img"
             className="position-absolute top-0 end-0"
           />
           <img
-            src="/images/banner/banner2-left-shape.png"
+            src="https://digiflow-html.netlify.app/assets/images/banner/banner2-left-shape.png"
             alt="img"
             className="position-absolute top-0 start-0"
           />
           <img
-            src="/images/banner/banner2-right-shape.png"
+            src="https://digiflow-html.netlify.app/assets/images/banner/banner2-right-shape.png"
             alt="img"
             className="position-absolute bottom-0 end-0"
           />
@@ -39,7 +39,7 @@ function Banner2() {
                 Development
               </p>
               <div className="tz-banner2__arrow">
-                <img src="/images/banner/banner2-arrow.png" alt="" />
+                <img src="https://digiflow-html.netlify.app/assets/images/banner/banner2-arrow.png" alt="" />
               </div>
               <div className="tz-banner2__info">
                 <div className="tz-banner2-counter follow-mouse">
@@ -54,17 +54,17 @@ function Banner2() {
                 <div className="tz-banner1-highlight follow-mouse">
                   <div className="tz-banner1-highlight__avatars">
                     <img
-                      src="/images/banner/banner1-avatar1.png"
+                      src="https://digiflow-html.netlify.app/assets/images/banner/banner1-avatar1.png"
                       alt="Client 1"
                       className="tz-banner1-highlight__avatar"
                     />
                     <img
-                      src="/images/banner/banner1-avatar2.png"
+                      src="https://digiflow-html.netlify.app/assets/images/banner/banner1-avatar2.png"
                       alt="Client 2"
                       className="tz-banner1-highlight__avatar"
                     />
                     <img
-                      src="/images/banner/banner1-avatar3.png"
+                      src="https://digiflow-html.netlify.app/assets/images/banner/banner1-avatar3.png"
                       alt="Client 2"
                       className="tz-banner1-highlight__avatar"
                     />
@@ -89,7 +89,7 @@ function Banner2() {
                 </div>
                 <div className="col-md-3">
                   <div className="tz-banner2__shape1">
-                    <img src="/images/banner/banner2-shape1.svg" alt="shape" />
+                    <img src="https://digiflow-html.netlify.app/assets/images/banner/banner2-shape1.svg" alt="shape" />
                   </div>
                 </div>
               </div>
@@ -106,18 +106,18 @@ function Banner2() {
                   </Link>
                 </div>
                 <div className="col-md-8">
-                  <img src="/images/banner/banner2-img.png" alt="" />
+                  <img src="https://digiflow-html.netlify.app/assets/images/banner/banner2-img.png" alt="" />
                 </div>
               </div>
             </div>
           </div>
           <img
-            src="/images/about/about1-shape.svg"
+            src="https://digiflow-html.netlify.app/assets/images/about/about1-shape.svg"
             className="tz-banner2__shape2 floating"
             alt=""
           />
           <div className="tz-banner2__social">
-            <BannerSocial />
+            {/* <BannerSocial /> */}
           </div>
         </div>
       </div>

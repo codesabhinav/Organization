@@ -7,31 +7,31 @@ export type Project2CardType = {
 
 export const project2Cards: Project2CardType[] = [
   {
-    image: "/images/project/project2-img1.jpg",
+    image: "https://digiflow-html.netlify.app/assets/images/project/project2-img1.jpg",
     tags: ["Branding", "Graphic Design"],
     title: "PixelForge Studio",
     link: "/project-details",
   },
   {
-    image: "/images/project/project2-img2.jpg",
+    image: "https://digiflow-html.netlify.app/assets/images/project/project2-img2.jpg",
     tags: ["Branding", "Graphic Design"],
     title: "PixelForge Studio",
     link: "/project-details",
   },
   {
-    image: "/images/project/project2-img3.jpg",
+    image: "https://digiflow-html.netlify.app/assets/images/project/project2-img3.jpg",
     tags: ["Branding", "Graphic Design"],
     title: "PixelForge Studio",
     link: "/project-details",
   },
   {
-    image: "/images/project/project2-img4.jpg",
+    image: "https://digiflow-html.netlify.app/assets/images/project/project2-img4.jpg",
     tags: ["Branding", "Graphic Design"],
     title: "PixelForge Studio",
     link: "/project-details",
   },
   {
-    image: "/images/project/project2-img2.jpg",
+    image: "https://digiflow-html.netlify.app/assets/images/project/project2-img2.jpg",
     tags: ["Branding", "Graphic Design"],
     title: "PixelForge Studio",
     link: "/project-details",
@@ -46,27 +46,27 @@ export type Project2SliderType = {
 
 export const project2SliderData: Project2SliderType[] = [
   {
-    projectSrc: "/images/project/project2-img1.jpg",
+    projectSrc: "https://digiflow-html.netlify.app/assets/images/project/project2-img1.jpg",
     category: ["Branding", "Graphic Design"],
     title: "PixelForge Studio",
   },
   {
-    projectSrc: "/images/project/project2-img2.jpg",
+    projectSrc: "https://digiflow-html.netlify.app/assets/images/project/project2-img2.jpg",
     category: ["Branding", "Graphic Design"],
     title: "PixelForge Studio",
   },
   {
-    projectSrc: "/images/project/project2-img3.jpg",
+    projectSrc: "https://digiflow-html.netlify.app/assets/images/project/project2-img3.jpg",
     category: ["Branding", "Graphic Design"],
     title: "PixelForge Studio",
   },
   {
-    projectSrc: "/images/project/project2-img4.jpg",
+    projectSrc: "https://digiflow-html.netlify.app/assets/images/project/project2-img4.jpg",
     category: ["Branding", "Graphic Design"],
     title: "PixelForge Studio",
   },
   {
-    projectSrc: "/images/project/project2-img2.jpg",
+    projectSrc: "https://digiflow-html.netlify.app/assets/images/project/project2-img2.jpg",
     category: ["Branding", "Graphic Design"],
     title: "PixelForge Studio",
   },
@@ -83,28 +83,28 @@ export type ProjectCardType = {
 export const projectCards: ProjectCardType[] = [
   {
     link: "/portfolio-details",
-    imageSrc: "/images/project/project1-img1.jpg",
+    imageSrc: "https://digiflow-html.netlify.app/assets/images/project/project1-img1.jpg",
     year: "2025",
     title: "PixelForge Studio",
     categories: ["BRANDING", "GRAPHIC DESIGN"],
   },
   {
     link: "/portfolio-details",
-    imageSrc: "/images/project/project1-img2.jpg",
+    imageSrc: "https://digiflow-html.netlify.app/assets/images/project/project1-img2.jpg",
     year: "2025",
     title: "NexaDigital Solutions",
     categories: ["BRANDING", "GRAPHIC DESIGN"],
   },
   {
     link: "/portfolio-details",
-    imageSrc: "/images/project/project1-img3.jpg",
+    imageSrc: "https://digiflow-html.netlify.app/assets/images/project/project1-img3.jpg",
     year: "2025",
     title: "CodeCraft Agency",
     categories: ["BRANDING", "GRAPHIC DESIGN"],
   },
   {
     link: "/portfolio-details",
-    imageSrc: "/images/project/project1-img4.jpg",
+    imageSrc: "https://digiflow-html.netlify.app/assets/images/project/project1-img4.jpg",
     year: "2025",
     title: "Skyline Digital Hub",
     categories: ["BRANDING", "GRAPHIC DESIGN"],

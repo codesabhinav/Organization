@@ -35,7 +35,7 @@ function Faq1({ backgroundColor = "#121212" }: { backgroundColor?: string }) {
                   </Link>
                 </div>
                 <img
-                  src="/images/banner/banner1-shape2.svg"
+                  src="https://digiflow-html.netlify.app/assets/images/banner/banner1-shape2.svg"
                   alt="img"
                   className="tz-faq2__shape floating"
                 />

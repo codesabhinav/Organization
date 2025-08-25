@@ -7,7 +7,7 @@ function Video({ bgColor = "#121212" }: { bgColor?: string }) {
       <div className="container">
         <div className="tz-video1__wrapper">
           <img
-            src="/images/video/video-img1.jpg"
+            src="https://digiflow-html.netlify.app/assets/images/video/video-img1.jpg"
             alt="img"
             className="tz-video1__image"
           />
@@ -19,7 +19,7 @@ function Video({ bgColor = "#121212" }: { bgColor?: string }) {
           </Link>
           <div className="tz-video1__circle">
             <img
-              src="/images/video/video-round-text.png"
+              src="https://digiflow-html.netlify.app/assets/images/video/video-round-text.png"
               alt="img"
               className="tz-video1__circle-img"
             />

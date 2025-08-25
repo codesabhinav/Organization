@@ -8,7 +8,7 @@ const Header2Slide: React.FC<Header2SlideProps> = ({ text }) => {
   return (
     <div className=" tz-text-slider__item">
       <img
-        src="/images/banner/text-slider-icon2.png"
+        src="https://digiflow-html.netlify.app/assets/images/banner/text-slider-icon2.png"
         alt="icon"
         className="tz-text-slider__icon"
       />

@@ -59,7 +59,7 @@ function Project2Slider1() {
               </div>
               <Link href={card.link}>
                 <img
-                  src="/images/project/project2-arrow.jpg"
+                  src="https://digiflow-html.netlify.app/assets/images/project/project2-arrow.jpg"
                   alt="arrow"
                   className="tz-project2-card__arrow"
                 />

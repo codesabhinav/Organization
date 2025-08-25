@@ -36,7 +36,7 @@ function Testimonial2({
               <div className="col-md-4">
                 <div className="tz-testimonial1__shape1 d-md-flex justify-content-end d-none">
                   <img
-                    src="/images/testimonial/testimonial1-shape1.svg"
+                    src="https://digiflow-html.netlify.app/assets/images/testimonial/testimonial1-shape1.svg"
                     className="floating"
                     alt="shape"
                   />

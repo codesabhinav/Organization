@@ -13,7 +13,7 @@ export const blog2Cards: Blog2CardType[] = [
     category: "UI Design",
     date: "03 May, 2025",
     time: "5 mins read",
-    blogImg: "/images/blog/blog2-img1.jpg",
+    blogImg: "https://digiflow-html.netlify.app/assets/images/blog/blog2-img1.jpg",
     link: "/blog-details",
   },
   {
@@ -21,7 +21,7 @@ export const blog2Cards: Blog2CardType[] = [
     category: "UI Design",
     date: "03 May, 2025",
     time: "5 mins read",
-    blogImg: "/images/blog/blog2-img2.jpg",
+    blogImg: "https://digiflow-html.netlify.app/assets/images/blog/blog2-img2.jpg",
     link: "/blog-details",
   },
   {
@@ -29,7 +29,7 @@ export const blog2Cards: Blog2CardType[] = [
     category: "UI Design",
     date: "03 May, 2025",
     time: "5 mins read",
-    blogImg: "/images/blog/blog2-img3.jpg",
+    blogImg: "https://digiflow-html.netlify.app/assets/images/blog/blog2-img3.jpg",
     link: "/blog-details",
   },
 ];

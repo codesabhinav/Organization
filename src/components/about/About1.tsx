@@ -11,14 +11,14 @@ function About1() {
     <>
       <section className="tz-about1">
         <img
-          src="/images/about/about1-shape2.svg"
+          src="https://digiflow-html.netlify.app/assets/images/about/about1-shape2.svg"
           className="tz-about1__shape2"
           alt="shape"
         />
         <div className="container">
           <div className="row g-4 d-flex justify-content-between">
             <div className="col-xl-5">
-              <img src="/images/about/about1-img.jpg" alt="img" />
+              <img src="https://digiflow-html.netlify.app/assets/images/about/about1-img.jpg" alt="img" />
             </div>
             <div className="col-xl-6">
               <div className="tz-section-top text-start">
@@ -69,7 +69,7 @@ function About1() {
           </div>
         </div>
         <img
-          src="/images/about/about1-shape.svg"
+          src="https://digiflow-html.netlify.app/assets/images/about/about1-shape.svg"
           className="tz-about1__shape floating"
           alt="img"
         />

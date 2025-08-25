@@ -7,7 +7,7 @@ const BlogDetailsReview = React.memo(function BlogDetailsReview() {
       <div className="tz-comment">
         {/* comment item */}
         <div className="tz-comment__item">
-          <img src="/images/blog/comment-avatar_1.png" alt="img" />
+          <img src="https://digiflow-html.netlify.app/assets/images/blog/comment-avatar_1.png" alt="img" />
           <div className="tz-comment__content">
             <h5 className="tz-comment__author-name">Robert Fox</h5>
             <p className="tz-comment__date tz-text-m">October 07,2025</p>
@@ -19,7 +19,7 @@ const BlogDetailsReview = React.memo(function BlogDetailsReview() {
             <a href="#" className="tz-comment__reply tz-text-l">
               <img
                 className="svg"
-                src="/images/blog/reply-icon.svg"
+                src="https://digiflow-html.netlify.app/assets/images/blog/reply-icon.svg"
                 alt="icon"
               />
               Reply
@@ -28,7 +28,7 @@ const BlogDetailsReview = React.memo(function BlogDetailsReview() {
             <div className="tz-comment__item">
               <img
                 className="tz-comment__author-image"
-                src="/images/blog/comment-avatar_2.png"
+                src="https://digiflow-html.netlify.app/assets/images/blog/comment-avatar_2.png"
                 alt="img"
               />
               <div className="tz-comment__content">
@@ -42,7 +42,7 @@ const BlogDetailsReview = React.memo(function BlogDetailsReview() {
                 <a href="#" className="tz-comment__reply tz-text-l">
                   <img
                     className="svg"
-                    src="/images/blog/reply-icon.svg"
+                    src="https://digiflow-html.netlify.app/assets/images/blog/reply-icon.svg"
                     alt="icon"
                   />
                   Reply
@@ -55,7 +55,7 @@ const BlogDetailsReview = React.memo(function BlogDetailsReview() {
         {/* comment item */}
         {/* comment item */}
         <div className="tz-comment__item">
-          <img src="/images/blog/comment-avatar_3.png" alt="img" />
+          <img src="https://digiflow-html.netlify.app/assets/images/blog/comment-avatar_3.png" alt="img" />
           <div className="tz-comment__content">
             <h5 className="tz-comment__author-name">Floyd Miles</h5>
             <p className="tz-comment__date tz-text-m">October 07,2025</p>
@@ -67,7 +67,7 @@ const BlogDetailsReview = React.memo(function BlogDetailsReview() {
             <a href="#" className="tz-comment__reply tz-text-l">
               <img
                 className="svg"
-                src="/images/blog/reply-icon.svg"
+                src="https://digiflow-html.netlify.app/assets/images/blog/reply-icon.svg"
                 alt="icon"
               />
               Reply

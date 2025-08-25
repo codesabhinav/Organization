@@ -30,7 +30,7 @@ const Testimonial1 = React.memo(function Testimonial1({
               <div className="col-md-4">
                 <div className="tz-testimonial1__shape1 d-md-flex justify-content-end d-none">
                   <img
-                    src="/images/testimonial/testimonial1-shape1.svg"
+                    src="https://digiflow-html.netlify.app/assets/images/testimonial/testimonial1-shape1.svg"
                     className="floating"
                     alt="shape"
                   />
@@ -43,12 +43,12 @@ const Testimonial1 = React.memo(function Testimonial1({
               <div className="tz-testimonial1-highlight">
                 <div className="tz-testimonial1-highlight__avatars">
                   <img
-                    src="/images/testimonial/testimonial1-avatar1.png"
+                    src="https://digiflow-html.netlify.app/assets/images/testimonial/testimonial1-avatar1.png"
                     alt="Client 1"
                     className="tz-testimonial1-highlight__avatar"
                   />
                   <img
-                    src="/images/testimonial/testimonial1-avatar2.png"
+                    src="https://digiflow-html.netlify.app/assets/images/testimonial/testimonial1-avatar2.png"
                     alt="Client 2"
                     className="tz-testimonial1-highlight__avatar"
                   />
@@ -64,7 +64,7 @@ const Testimonial1 = React.memo(function Testimonial1({
               </div>
               <div className="tz-testimonial1__shape2 d-flex align-items-end justify-content-center tz-pt-lg-120">
                 <img
-                  src="/images/testimonial/testimonial1-shape2.svg"
+                  src="https://digiflow-html.netlify.app/assets/images/testimonial/testimonial1-shape2.svg"
                   alt="shape"
                 />
               </div>

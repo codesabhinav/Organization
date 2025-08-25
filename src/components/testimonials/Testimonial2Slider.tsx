@@ -51,7 +51,7 @@ function Testimonial2Slider() {
                     <div className="tz-testimonial2-trustpoint__top">
                       <img
                         className="svg tz-testimonial2-trustpoint__shape1"
-                        src="/images/testimonial/trust.svg"
+                        src="https://digiflow-html.netlify.app/assets/images/testimonial/trust.svg"
                         alt=""
                       />
                       <span className="tz-testimonial2-trustpoint__label">
@@ -69,10 +69,10 @@ function Testimonial2Slider() {
                       Reviews 25,575
                     </p>
                     <div className="tz-total-review-chip">
-                      <img src="/images/testimonial/clients-1.png" alt="" />
-                      <img src="/images/testimonial/clients-2.png" alt="" />
-                      <img src="/images/testimonial/clients-3.png" alt="" />
-                      <img src="/images/testimonial/clients-2.png" alt="" />
+                      <img src="https://digiflow-html.netlify.app/assets/images/testimonial/clients-1.png" alt="" />
+                      <img src="https://digiflow-html.netlify.app/assets/images/testimonial/clients-2.png" alt="" />
+                      <img src="https://digiflow-html.netlify.app/assets/images/testimonial/clients-3.png" alt="" />
+                      <img src="https://digiflow-html.netlify.app/assets/images/testimonial/clients-2.png" alt="" />
                       <div className="tz-total-review-chip__total tz-text-m">
                         40k
                       </div>

@@ -12,22 +12,22 @@ const Banner1 = React.memo(function Banner1() {
       <section className="tz-banner1">
         <div className="container">
           <img
-            src="/images/banner/banner1-gradient-left.png"
+            src="https://digiflow-html.netlify.app/assets/images/banner/banner1-gradient-left.png"
             alt="img"
             className="position-absolute bottom-0 start-0"
           />
           <img
-            src="/images/banner/banner1-gradient-right.png"
+            src="https://digiflow-html.netlify.app/assets/images/banner/banner1-gradient-right.png"
             alt="img"
             className="position-absolute top-0 end-0"
           />
           <img
-            src="/images/banner/banner1-shape1.png"
+            src="https://digiflow-html.netlify.app/assets/images/banner/banner1-shape1.png"
             alt="img"
             className="tz-banner1__shape1"
           />
           <img
-            src="/images/banner/banner1-shape2.svg"
+            src="https://digiflow-html.netlify.app/assets/images/banner/banner1-shape2.svg"
             alt="img"
             className="tz-banner1__shape2 floating"
           />
@@ -68,17 +68,17 @@ const Banner1 = React.memo(function Banner1() {
                 <div className="tz-banner1-highlight follow-mouse">
                   <div className="tz-banner1-highlight__avatars ">
                     <img
-                      src="/images/banner/banner1-avatar1.png"
+                      src="https://digiflow-html.netlify.app/assets/images/banner/banner1-avatar1.png"
                       alt="Client 1"
                       className="tz-banner1-highlight__avatar"
                     />
                     <img
-                      src="/images/banner/banner1-avatar2.png"
+                      src="https://digiflow-html.netlify.app/assets/images/banner/banner1-avatar2.png"
                       alt="Client 2"
                       className="tz-banner1-highlight__avatar"
                     />
                     <img
-                      src="/images/banner/banner1-avatar3.png"
+                      src="https://digiflow-html.netlify.app/assets/images/banner/banner1-avatar3.png"
                       alt="Client 2"
                       className="tz-banner1-highlight__avatar"
                     />
@@ -93,13 +93,13 @@ const Banner1 = React.memo(function Banner1() {
               </div>
               <div className="tz-banner1__wrapper">
                 <img
-                  src="/images/banner/banner1-img.jpg"
+                  src="https://digiflow-html.netlify.app/assets/images/banner/banner1-img.jpg"
                   alt="img"
                   className="tz-banner1__image"
                 />
                 <Link href="/portfolio-2" className="tz-banner1__circle">
                   <img
-                    src="/images/banner/round-text.png"
+                    src="https://digiflow-html.netlify.app/assets/images/banner/round-text.png"
                     alt=""
                     className="tz-banner1__circle-img"
                   />

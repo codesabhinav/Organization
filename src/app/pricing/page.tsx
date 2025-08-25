@@ -12,7 +12,7 @@ function page() {
 Pricing Plan"
       />
       <HeaderSlider />
-      <Pricing1 />
+      {/* <Pricing1 /> */}
       <Subscribe1 />
     </>
   );

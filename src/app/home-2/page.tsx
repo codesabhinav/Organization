@@ -26,7 +26,7 @@ function page() {
       <WhoWeAre backgroundColor="#171717" />
       <Project2 />
       <WorkFlow1 />
-      <Pricing1 bgColor="#121212" />
+      {/* <Pricing1 bgColor="#121212" /> */}
       <Faq1 backgroundColor="#171717" />
       <Testimonial2 />
       <Blog2 />

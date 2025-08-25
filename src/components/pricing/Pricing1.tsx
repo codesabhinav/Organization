@@ -39,7 +39,7 @@ function Pricing1({ bgColor = "#121212" }: { bgColor?: string }) {
                   03 Monthly
                 </button>
               </div>
-              <img src="/images/wwa/wwa1-shape.svg" alt="img" />
+              <img src="https://digiflow-html.netlify.app/assets/images/wwa/wwa1-shape.svg" alt="img" />
             </div>
             {pricingCards.map((card, index) => (
               <div className="col-md-6 col-xl-3" key={index}>

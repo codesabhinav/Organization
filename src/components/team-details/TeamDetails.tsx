@@ -11,7 +11,7 @@ function TeamDetails() {
         <div className="row g-4 d-flex justify-content-between">
           <div className="col-md-4">
             <div className="tz-team-details__image">
-              <img src="/images/team/team-details-img1.jpg" alt="img" />
+              <img src="https://digiflow-html.netlify.app/assets/images/team/team-details-img1.jpg" alt="img" />
             </div>
           </div>
           <div className="col-md-7 tz-pt-30 tz-pb-30 tz-pt-lg-60 tz-pb-lg-60">

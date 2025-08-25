@@ -37,7 +37,7 @@ function Service2Card({
     >
       <div className="tz-service2-card__content">
         <img
-          src="/images/service/service2-card-shape.svg"
+          src="https://digiflow-html.netlify.app/assets/images/service/service2-card-shape.svg"
           alt="shape"
           className="tz-service2-card__shape"
         />
@@ -65,7 +65,7 @@ function Service2Card({
             <div className="col-3">
               <div className="tz-service2-card__btn-icon d-flex justify-content-end">
                 <img
-                  src="/images/service/service2-card-arrow.svg"
+                  src="https://digiflow-html.netlify.app/assets/images/service/service2-card-arrow.svg"
                   alt="Arrow Icon"
                   className="svg"
                 />

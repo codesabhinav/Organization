@@ -51,7 +51,7 @@ function RelatedArticles() {
                 </div>
               </div>
               <div className="tz-blog2-card__image">
-                <img src="/images/blog/blog2-img1.jpg" alt="img" />
+                <img src="https://digiflow-html.netlify.app/assets/images/blog/blog2-img1.jpg" alt="img" />
               </div>
             </div>
           </div>
@@ -79,7 +79,7 @@ function RelatedArticles() {
                 </div>
               </div>
               <div className="tz-blog2-card__image">
-                <img src="/images/blog/blog2-img2.jpg" alt="img" />
+                <img src="https://digiflow-html.netlify.app/assets/images/blog/blog2-img2.jpg" alt="img" />
               </div>
             </div>
           </div>
@@ -106,7 +106,7 @@ function RelatedArticles() {
                 </div>
               </div>
               <div className="tz-blog2-card__image">
-                <img src="/images/blog/blog2-img3.jpg" alt="img" />
+                <img src="https://digiflow-html.netlify.app/assets/images/blog/blog2-img3.jpg" alt="img" />
               </div>
             </div>
           </div>

@@ -6540,9 +6540,17 @@ textarea:focus {
 }
 .tz-testimonial1-brands__slider {
   overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 .tz-testimonial1-brands__slider-img {
-  opacity: 0.3;
+  opacity: 1;
+  mix-blend-mode: screen; 
+  opacity: 0.92;          /* great on dark backgrounds */
+  transition: filter .25s ease, opacity .25s ease;
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 .tz-testimonial1-brands .swiper-wrapper {
   transition-timing-function: linear;

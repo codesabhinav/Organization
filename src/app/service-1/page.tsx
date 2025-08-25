@@ -19,7 +19,7 @@ function page() {
         isInnerPage
       />
       <Video bgColor="#171717" />
-      <Pricing1 />
+      {/* <Pricing1 /> */}
       <Testimonial1 bgClass="tz-bg-neutral2" />
       <Subscribe1 spacingClass="tz-mt-lg-120" />
     </>

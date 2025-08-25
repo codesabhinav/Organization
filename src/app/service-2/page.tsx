@@ -15,7 +15,7 @@ function page() {
       <HeaderSlider />
       <Service2 service2Data={[...service2Cards.slice(0, 8)]} isInnerPage />
       <WorkFlow1 />
-      <Pricing1 />
+      {/* <Pricing1 /> */}
       <Testimonial2 backgroundColor="#171717" />
       <Subscribe1 spacingClass="tz-mt-lg-120" />
     </>
