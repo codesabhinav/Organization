@@ -1,43 +1,49 @@
 import Link from "next/link";
 import React from "react";
+import { serviceDetailsData } from "../../seeds/ServiceDetails.seeds";
 
-function ServiceSidebar() {
+const getServiceSlug = (title: string): string => {
+  const slugMap: { [key: string]: string } = {
+    "Web Development": "web-development",
+    "Software Development": "software-development",
+    "AI Development": "ai-development",
+    "Digital Marketing": "digital-marketing",
+    "ERP Development": "erp-development",
+    "Cybersecurity Service": "cybersecurity-service",
+    "Internet of Things (IoT)": "internet-of-things-iot",
+    "Dedicated Resource": "dedicated-resource",
+  };
+  
+  return slugMap[title] || "web-development";
+};
+
+interface ServiceSidebarProps {
+  currentServiceSlug?: string;
+}
+
+function ServiceSidebar({ currentServiceSlug }: ServiceSidebarProps) {
   return (
     <div className="tz-service-details-sidebar">
       {/* Services List Widget */}
       <div className="tz-service-details-sidebar__widget">
         <h4 className="tz-service-details-sidebar__title">All Services</h4>
         <div className="tz-service-details-sidebar__service-list">
-          <Link
-            href="/service-details"
-            className="tz-service-details-sidebar__service-item tz-text-m"
-          >
-            UI/UX design <i className="ph ph-caret-right" />
-          </Link>
-          <Link
-            href="/service-details"
-            className="tz-service-details-sidebar__service-item tz-text-m"
-          >
-            Web development <i className="ph ph-caret-right" />
-          </Link>
-          <Link
-            href="/service-details"
-            className="tz-service-details-sidebar__service-item tz-text-m"
-          >
-            3D designs <i className="ph ph-caret-right" />
-          </Link>
-          <Link
-            href="/service-details"
-            className="tz-service-details-sidebar__service-item tz-text-m"
-          >
-            Digital marketing design <i className="ph ph-caret-right" />
-          </Link>
-          <Link
-            href="/service-details"
-            className="tz-service-details-sidebar__service-item tz-text-m"
-          >
-            Logos &amp; branding <i className="ph ph-caret-right" />
-          </Link>
+          {serviceDetailsData.map((service) => {
+            const serviceSlug = getServiceSlug(service.title);
+            const isActive = currentServiceSlug === serviceSlug;
+            
+            return (
+              <Link
+                key={service.slug}
+                href={`/service-details/${serviceSlug}`}
+                className={`tz-service-details-sidebar__service-item tz-text-m ${
+                  isActive ? "active" : ""
+                }`}
+              >
+                {service.title} <i className="ph ph-caret-right" />
+              </Link>
+            );
+          })}
         </div>
       </div>
       {/* Company Profile Widget */}

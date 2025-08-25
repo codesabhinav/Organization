@@ -2,6 +2,21 @@ import React from "react";
 import { ServiceCardType } from "../../seeds/Service.seeds";
 import Link from "next/link";
 
+const getServiceSlug = (title: string): string => {
+  const slugMap: { [key: string]: string } = {
+    "Web Development": "web-development",
+    "Software Development": "software-development",
+    "AI Development": "ai-development",
+    "Digital Marketing": "digital-marketing",
+    "ERP Development": "erp-development",
+    "Cybersecurity service": "cybersecurity-service",
+    "Internet on things (IOT)": "internet-of-things-iot",
+    "Dedicated resource": "dedicated-resource",
+  };
+  
+  return slugMap[title] || "web-development";
+};
+
 interface Service2CardProps {
   card: ServiceCardType;
   index: number;
@@ -40,7 +55,7 @@ function Service2Card({
         </p>
       </div>
       <div className="tz-service2-card__footer">
-        <Link href={card.link}>
+        <Link href={`/service-details/${getServiceSlug(card.title)}`}>
           <div className="row">
             <div className="col-9">
               <h5 className="tz-service2-card__btn mb-0 text-uppercase">

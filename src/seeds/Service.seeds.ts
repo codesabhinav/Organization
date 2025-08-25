@@ -8,58 +8,58 @@ export type ServiceCard1Type = {
 export const serviceCards: ServiceCard1Type[] = [
   {
     number: "I",
-    title: "Graphic Design",
+    title: "Web Development",
     description:
-      "Our graphic design services cover everything from materials to digital graphics.",
+      "We build responsive, secure, and scalable websites tailored to elevate brands, engage users, and grow",
     link: "/service-details",
   },
   {
     number: "II",
-    title: "Web Design",
+    title: "Software Development",
     description:
-      "Our web design services create stunning, responsive websites that engage users and drive conversions.",
+      "We craft innovative, scalable, and secure software solutions tailored to streamline operations and drive growth",
     link: "/service-details",
   },
   {
     number: "III",
-    title: "Branding Design",
+    title: "AI Development",
     description:
-      "Our graphic design services cover everything from materials to digital graphics. We clearly and effectively.",
+      "We build intelligent AI solutions that automate workflows, enhance decision-making, and deliver smarter user experiences.",
     link: "/service-details",
   },
   {
     number: "IV",
-    title: "Webflow Design",
+    title: "Digital Marketing",
     description:
-      "Our graphic design services cover everything from materials to digital graphics. We clearly and effectively.",
+      "We craft data-driven digital marketing strategies that boost visibility, engage audiences, and accelerate measurable growth.",
     link: "/service-details",
   },
   {
     number: "V",
-    title: "UI/UX Design",
+    title: "ERP Development",
     description:
-      "Our UI/UX design services create intuitive and engaging user experiences that delight customers.",
+      "ERP DevelopmentWe develop customized ERP solutions that streamline operations, integrate processes, and optimize business efficiency seamlessly.",
     link: "/service-details",
   },
   {
     number: "VI",
-    title: "Motion Graphics",
+    title: "Cybersecurity service",
     description:
-      "Our motion graphics bring stories to life through dynamic and engaging animated content.",
+      "We provide advanced cybersecurity solutions that protect systems, prevent threats, and ensure data integrity across organizations.",
     link: "/service-details",
   },
   {
     number: "VII",
-    title: "Digital Marketing",
+    title: "Internet on things (IOT)",
     description:
-      "Our digital marketing strategies drive growth and engagement across all online channels.",
+      "We build smart IoT solutions that connect devices, optimize operations, and deliver real-time actionable insights",
     link: "/service-details",
   },
   {
     number: "VIII",
-    title: "Content Strategy",
+    title: "Dedicated resource",
     description:
-      "Our content strategy services help businesses create meaningful and impactful communications.",
+      "We provide skilled dedicated resources ensuring focused project delivery, flexible engagement, and long-term business value.",
     link: "/service-details",
   },
 ];
@@ -76,65 +76,65 @@ export const service2Cards: ServiceCardType[] = [
   {
     number: "01",
     iconSrc: "/images/service/service2-card-icon1.svg",
-    title: "Graphic Design",
+    title: "Web Development",
     description:
-      "Our graphic design services everything from materials to digital graphics. We clearly and effectively.",
+      "We build responsive, secure, and scalable websites tailored to elevate brands, engage users, and grow effectively.",
     link: "/service-details",
   },
   {
     number: "02",
     iconSrc: "/images/service/service2-card-icon2.svg",
-    title: "Brand Guidelines",
+    title: "Software Development",
     description:
-      "Our graphic design services everything from materials to digital graphics. We clearly and effectively.",
+      "We craft innovative, scalable, and secure software solutions tailored to streamline operations and drive growth.",
     link: "/service-details",
   },
   {
     number: "03",
     iconSrc: "/images/service/service2-card-icon3.svg",
-    title: "Packaging Design",
+    title: "AI Development",
     description:
-      "Our graphic design services everything from materials to digital graphics. We clearly and effectively.",
+      "We build intelligent AI solutions that automate workflows, enhance decision-making, and deliver smarter user experiences.",
     link: "/service-details",
   },
   {
     number: "04",
     iconSrc: "/images/service/service2-card-icon4.svg",
-    title: "Brand Identity",
+    title: "Digital Marketing",
     description:
-      "Our graphic design services everything from materials to digital graphics. We clearly and effectively.",
+      "We craft data-driven digital marketing strategies that boost visibility, engage audiences, and accelerate measurable growth.",
     link: "/service-details",
   },
   {
     number: "05",
     iconSrc: "/images/service/service2-card-icon5.svg",
-    title: "UI/UX Design",
+    title: "ERP Development",
     description:
-      "Our UI/UX design services create intuitive and engaging interfaces that enhance user experience.",
+      "ERP Development customized ERP solutions that streamline operations, integrate processes, and optimize business efficiency seamlessly.",
     link: "/service-details",
   },
   {
     number: "06",
     iconSrc: "/images/service/service2-card-icon6.svg",
-    title: "Motion Graphics",
+    title: "Cybersecurity service",
     description:
-      "Our motion graphics services bring static designs to life with engaging animations and visual effects.",
+      "We provide advanced cybersecurity solutions that protect systems, prevent threats, and ensure data integrity across organizations.",
     link: "/service-details",
   },
   {
     number: "07",
     iconSrc: "/images/service/service2-card-icon7.svg",
-    title: "Digital Marketing",
+    title: "Internet on things (IOT)",
     description:
-      "Our digital marketing services help businesses reach their target audience and achieve growth goals.",
+      "We build smart IoT solutions that connect devices, optimize operations, and deliver real-time actionable insights.",
     link: "/service-details",
   },
   {
     number: "08",
     iconSrc: "/images/service/service2-card-icon8.svg",
-    title: "Content Strategy",
+    title: "Dedicated resource",
     description:
-      "Our content strategy services help create compelling narratives that resonate with your audience.",
+      "We provide skilled dedicated resources ensuring focused project delivery, flexible engagement, and long-term business value.",
     link: "/service-details",
   },
 ];

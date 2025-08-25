@@ -4,11 +4,7 @@ export const menuSeed: MenuSeed = {
   items: [
     {
       title: "Home",
-      href: "/",
-      submenu: [
-        { title: "Home-1", href: "/" },
-        { title: "Home-2", href: "/home-2" },
-      ],
+      href: "/"
     },
     {
       title: "About Us",

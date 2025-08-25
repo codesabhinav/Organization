@@ -26,7 +26,7 @@ function Service1({
           {isInnerPage ? (
             <SectionTop
               title="Our Services"
-              description="Our exclusive Services"
+              description="Our  Services"
             />
           ) : (
             <div className="tz-section-top">

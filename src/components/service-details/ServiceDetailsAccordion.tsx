@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import {
   ServiceAccordionType,
   serviceAccordionData,
-} from "@/seeds/ServiceDetails.seeds";
+} from "@/seeds/ServiceAccordion.seeds";
 
 function ServiceDetailsAccordion() {
   const [accordions, setAccordions] =

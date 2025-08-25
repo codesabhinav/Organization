@@ -1,6 +1,21 @@
 import Link from "next/link";
 import React from "react";
 
+const getServiceSlug = (title: string): string => {
+  const slugMap: { [key: string]: string } = {
+    "Web Development": "web-development",
+    "Software Development": "software-development",
+    "AI Development": "ai-development",
+    "Digital Marketing": "digital-marketing",
+    "ERP Development": "erp-development",
+    "Cybersecurity service": "cybersecurity-service",
+    "Internet on things (IOT)": "internet-of-things-iot",
+    "Dedicated resource": "dedicated-resource",
+  };
+  
+  return slugMap[title] || "web-development";
+};
+
 interface ServiceCardProps {
   number: string;
   title: string;
@@ -33,7 +48,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
         //   }
         // }}
       >
-        <Link href="/service-details" className="tz-text-neutral4 d-block">
+        <Link href={`/service-details/${getServiceSlug(title)}`} className="tz-text-neutral4 d-block">
           <span className="tz-service1-card__number">{number}</span>
           <div className="tz-service1-card__content">
             <div className="tz-service1-card__shape d-flex justify-content-center tz-mb-20 tz-mb-lg-40">

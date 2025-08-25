@@ -62,7 +62,7 @@ function page() {
       <HeaderSlider />
       <HeaderSlider2 />
       <About2 />
-      <Service2 service2Data={[...service2Cards.slice(0, 4)]} />
+      <Service2 service2Data={[...service2Cards.slice(0, 8)]} />
       <WhoWeAre backgroundColor="#171717" />
       <Project2 />
       <WorkFlow1 />
