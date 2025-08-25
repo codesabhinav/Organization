@@ -7,6 +7,7 @@ import "./globals.css";
 import "swiper/css";
 import InnerLayout from "@/components/layouts/InnerLayout";
 import ScrollTop from "@/components/scroll-top/ScrollTop";
+import { Toaster } from 'react-hot-toast';
 
 const outfit = Outfit({
   subsets: ["latin"],
@@ -22,7 +23,7 @@ const teko = Teko({
 export const metadata: Metadata = {
   title: "DigiFlow | Digital Agency Next JS Template",
   description:
-    "Digiflow is a professionally designed Figma template tailored for Digital Agency websites! Whether you’re building a site for any business related to agency, business, digital agency, and portfolio website, Pixelo provides modern, clean, and fully customizable templates to help you create an impactful online presence. Its user-friendly design ensures an effortless and smooth design process for developers and designers alike.",
+    "Digiflow is a professionally designed Figma template tailored for Digital Agency websites! Whether you're building a site for any business related to agency, business, digital agency, and portfolio website, Pixelo provides modern, clean, and fully customizable templates to help you create an impactful online presence. Its user-friendly design ensures an effortless and smooth design process for developers and designers alike.",
 };
 
 export default function RootLayout({
@@ -37,6 +38,7 @@ export default function RootLayout({
           {children}
           <ScrollTop />
         </InnerLayout>
+        <Toaster />
       </body>
     </html>
   );

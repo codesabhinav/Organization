@@ -8,34 +8,40 @@ export type Project2CardType = {
 export const project2Cards: Project2CardType[] = [
   {
     image: "https://digiflow-html.netlify.app/assets/images/project/project2-img1.jpg",
-    tags: ["Branding", "Graphic Design"],
-    title: "PixelForge Studio",
-    link: "/project-details",
+    tags: ["AI Tools", "No-Code"],
+    title: "AppyPie - AI App Builder",
+    link: "/portfolio-details/appy-pie",
   },
   {
     image: "https://digiflow-html.netlify.app/assets/images/project/project2-img2.jpg",
-    tags: ["Branding", "Graphic Design"],
-    title: "PixelForge Studio",
-    link: "/project-details",
+    tags: ["Conversational AI", "Chatbots"],
+    title: "Gupshup - Auto Bot Builder",
+    link: "/portfolio-details/gupshup",
   },
   {
     image: "https://digiflow-html.netlify.app/assets/images/project/project2-img3.jpg",
-    tags: ["Branding", "Graphic Design"],
-    title: "PixelForge Studio",
-    link: "/project-details",
+    tags: ["Automation", "Workflow"],
+    title: "Microsoft Power Automate",
+    link: "/portfolio-details/microsoft-power-automate",
   },
   {
     image: "https://digiflow-html.netlify.app/assets/images/project/project2-img4.jpg",
-    tags: ["Branding", "Graphic Design"],
-    title: "PixelForge Studio",
-    link: "/project-details",
+    tags: ["AI Workflow", "Integrations"],
+    title: "n8n - AI Workflow Automation",
+    link: "/portfolio-details/n8n",
   },
   {
     image: "https://digiflow-html.netlify.app/assets/images/project/project2-img2.jpg",
-    tags: ["Branding", "Graphic Design"],
-    title: "PixelForge Studio",
-    link: "/project-details",
+    tags: ["SaaS Management", "Governance"],
+    title: "Zluri - SaaS & Identity Governance",
+    link: "/portfolio-details/zluri",
   },
+  {
+    image: "https://digiflow-html.netlify.app/assets/images/project/project2-img3.jpg",
+    tags: ["No-Code", "Resources"],
+    title: "Shnoco - No-Code Learning Hub",
+    link: "/portfolio-details/shnoco",
+  }
 ];
 
 export type Project2SliderType = {
@@ -82,31 +88,31 @@ export type ProjectCardType = {
 
 export const projectCards: ProjectCardType[] = [
   {
-    link: "/portfolio-details",
+    link: "/portfolio-details/appy-pie",
     imageSrc: "https://digiflow-html.netlify.app/assets/images/project/project1-img1.jpg",
     year: "2025",
-    title: "PixelForge Studio",
-    categories: ["BRANDING", "GRAPHIC DESIGN"],
+    title: "AppyPie - AI App Builder",
+    categories: ["AI Tools", "No-Code"],
   },
   {
-    link: "/portfolio-details",
+    link: "/portfolio-details/gupshup",
     imageSrc: "https://digiflow-html.netlify.app/assets/images/project/project1-img2.jpg",
     year: "2025",
-    title: "NexaDigital Solutions",
-    categories: ["BRANDING", "GRAPHIC DESIGN"],
+    title: "Gupshup - Auto Bot Builder",
+    categories: ["Conversational AI", "Chatbots"],
   },
   {
-    link: "/portfolio-details",
+    link: "/portfolio-details/microsoft-power-automate",
     imageSrc: "https://digiflow-html.netlify.app/assets/images/project/project1-img3.jpg",
     year: "2025",
-    title: "CodeCraft Agency",
-    categories: ["BRANDING", "GRAPHIC DESIGN"],
+    title: "Microsoft Power Automate",
+    categories: ["Automation", "Workflow"],
   },
   {
-    link: "/portfolio-details",
+    link: "/portfolio-details/n8n",
     imageSrc: "https://digiflow-html.netlify.app/assets/images/project/project1-img4.jpg",
     year: "2025",
-    title: "Skyline Digital Hub",
-    categories: ["BRANDING", "GRAPHIC DESIGN"],
+    title: "n8n - AI Workflow Automation",
+    categories: ["AI Workflow", "Integrations"],
   },
 ];

@@ -1,22 +1,31 @@
 import BreadCrumb from "@/components/breadcrumb/BreadCrumb";
-import Faq1 from "@/components/faq/Faq1";
 import HeaderSlider from "@/components/heading-slider/HeaderSlider";
-import Project1 from "@/components/project/Project1";
+import PortfolioGrid from "@/components/portfolio/PortfolioGrid";
+import SectionSubtitle from "@/components/section-subtitle/SectionSubtitle";
+import SectionTitle from "@/components/section-title/SectionTitle";
 import Subscribe1 from "@/components/subscribe/Subscribe1";
-import Testimonial1 from "@/components/testimonials/Testimonial1";
 import React from "react";
 
-function page() {
+function PortfolioPage() {
   return (
     <>
-      <BreadCrumb title="Service One" />
+      <BreadCrumb title="Our Portfolio" />
       <HeaderSlider />
-      <Project1 />
-      <Faq1 backgroundColor="#171717" />
-      <Testimonial1 />
+      
+      <div className="tz-portfolio tz-pt-60 tz-pb-60 tz-pt-lg-120 tz-pb-lg-120">
+        <div className="container">
+          <div className="tz-section-top tz-section-top--centered">
+            <SectionSubtitle subtitle="OUR PORTFOLIO" />
+            <SectionTitle title="EXPLORE OUR LATEST PROJECTS" />
+          </div>
+          
+          <PortfolioGrid />
+        </div>
+      </div>
+      
       <Subscribe1 spacingClass="tz-mt-lg-120" />
     </>
   );
 }
 
-export default page;
+export default PortfolioPage;

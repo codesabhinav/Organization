@@ -142,12 +142,12 @@ function Project1({ backgroundColor = "#121212" }) {
         </div>
         <div className="tz-buttons d-flex justify-content-center mt-5 mt-lg-0">
           <Link
-            href="#"
+            href="/portfolio-1"
             className="tz-button text-uppercase fw-medium tz-text-m"
           >
             VIEW ALL PROJECTS
           </Link>
-          <Link className="tz-button-circle" href="#">
+          <Link className="tz-button-circle" href="/portfolio-1">
             <i className="ph ph-arrow-up-right" />
           </Link>
         </div>
