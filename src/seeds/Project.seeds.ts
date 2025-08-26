@@ -7,10 +7,10 @@ export type Project2CardType = {
 
 export const project2Cards: Project2CardType[] = [
  {
-    image: "https://www.fahimai.com/wp-content/uploads/2025/01/Fahim-AI-3-68.png",
+    image: "https://images.unsplash.com/photo-1508780709619-79562169bc64?w=400&h=400&fit=crop",
      tags: ["Knowledge Management", "Productivity"],
-    title: "Notion Automations - Workspace Intelligence",
-    link: "/portfolio-details/notion-automations",
+    title: "Knowledge Management Automations",
+    link: "/portfolio-details/ai-knowledge-hub",
   },
   {
      image: "https://images.unsplash.com/photo-1508780709619-79562169bc64?w=400&h=400&fit=crop", 
@@ -48,33 +48,39 @@ export type Project2SliderType = {
   projectSrc: string;
   category: string[];
   title: string;
+  link: string;
 };
 
 export const project2SliderData: Project2SliderType[] = [
   {
-    projectSrc: "https://www.fahimai.com/wp-content/uploads/2025/01/Fahim-AI-3-68.png",
-    category: ["Branding", "Graphic Design"],
-    title: "PixelForge Studio",
+    "projectSrc": "https://document360.com/wp-content/uploads/2021/07/ai_powered_knowledge_base_Document360-scaled.jpg",
+    "category": ["AI", "Knowledge Management", "Productivity"],
+    "title": "AI Knowledge Hub - Intelligent Team Assistant",
+    "link": "/portfolio-details/ai-knowledge-hub"
   },
   {
     projectSrc:"https://images.unsplash.com/photo-1508780709619-79562169bc64?w=400&h=400&fit=crop",
-    category: ["Branding", "Graphic Design"],
-    title: "PixelForge Studio",
+    category: ["AI Tools", "Content Writing"],
+    title: "Writesonic - AI Writing Assistant",
+    link: "/portfolio-details/writesonic",
   },
   {
     projectSrc: "https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?w=800&h=600&fit=crop", 
-    category: ["Branding", "Graphic Design"],
-    title: "PixelForge Studio",
+    category: ["AI Tools", "Copywriting"],
+    title: "Copy.ai - Smart Copy Generator",
+    link: "/portfolio-details/copy-ai",
   },
   {
     projectSrc:"https://images.unsplash.com/photo-1646839083586-cf7747c1e9bb?w=800&h=600&fit=crop", 
-    category: ["Branding", "Graphic Design"],
-    title: "PixelForge Studio",
+    category: ["AI Tools", "Writing"],
+    title: "Grammarly Lite - Quick Grammar Checker",
+    link: "/portfolio-details/grammarly-lite",
   },
   {
     projectSrc: "https://www.aig123.com/wp-content/uploads/2024/05/voicenotes.png",
-    category: ["Branding", "Graphic Design"],
-    title: "PixelForge Studio",
+    category: ["AI Tools", "Productivity"],
+    title: "VoiceNote AI - Speech to Text Helper",
+    link: "/portfolio-details/voicenote-ai",
   },
 ];
 
@@ -88,11 +94,11 @@ export type ProjectCardType = {
 
 export const projectCards: ProjectCardType[] = [
   {
-    link: "/portfolio-details/notion-automations",
-    imageSrc: "https://www.fahimai.com/wp-content/uploads/2025/01/Fahim-AI-3-68.png",
+    link: "/portfolio-details/ai-knowledge-hub",
+    imageSrc: "https://images.unsplash.com/photo-1508780709619-79562169bc64?w=400&h=400&fit=crop",
     year: "2025",
-    title: "AppyPie - AI App Builder",
-    categories: ["AI Tools", "No-Code"],
+    title: "AI Knowledge Hub - Intelligent Team Assistant",
+    categories: ["AI", "Knowledge Management", "Productivity"],
   },
   {
       link: "/portfolio-details/writesonic",

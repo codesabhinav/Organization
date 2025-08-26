@@ -59,7 +59,7 @@ function Project2Slider() {
                       </span>
                     ))}
                   </div>
-                  <Link href="/project-details">
+                  <Link href={item.link}>
                     <img
                       src="https://digiflow-html.netlify.app/assets/images/project/project2-arrow.jpg"
                       alt="arrow"

@@ -24,12 +24,12 @@ function Project2() {
         <div className="tz-project2__footer">
           <div className="tz-buttons d-flex justify-content-center">
             <Link
-              href="#"
+              href="/portfolio-1"
               className="tz-button text-uppercase fw-medium tz-text-m"
             >
               VIEW ALL PROJECTS
             </Link>
-            <Link className="tz-button-circle" href="#">
+            <Link className="tz-button-circle" href="/portfolio-1">
               <i className="ph ph-arrow-up-right" />
             </Link>
           </div>

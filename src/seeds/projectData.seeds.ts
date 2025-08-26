@@ -16,22 +16,22 @@ export type ProjectType = {
 export const projectData: ProjectType[] = [
  
   {
-    slug: "notion-automations",
-    image: "https://www.fahimai.com/wp-content/uploads/2025/01/Fahim-AI-3-68.png",
-    tags: ["Knowledge Management", "Productivity"],
-    title: "Notion Automations - Workspace Intelligence",
-    client: "Remote Teams",
-    startDate: "20 March 2026",
-    handover: "05 June 2026",
-    overview:
-      "Notion Automations transforms the popular workspace platform into an intelligent hub, automating task management, knowledge sharing, and team collaboration workflows.",
-    whyChooseUs:
-      "We enhance Notion's capabilities with intelligent automation, making it the central hub for all team workflows and knowledge management.",
-    challenges:
-      "Remote teams needed better ways to automate routine tasks, manage knowledge, and maintain consistent workflows across distributed teams.",
-    solutions: ["Task Automation", "Knowledge Management", "Team Collaboration", "Workflow Templates"],
-    finalResult:
-      "Remote teams improved productivity by 40% and reduced meeting time by 30% through automated workflows and intelligent knowledge management."
+    "slug": "ai-knowledge-hub",
+    "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64?w=400&h=400&fit=crop",
+    "tags": ["AI", "Knowledge Management", "Productivity"],
+    "title": "AI Knowledge Hub - Intelligent Team Assistant",
+    "client": "Global Enterprises",
+    "startDate": "10 May 2026",
+    "handover": "25 July 2026",
+    "overview":
+      "AI Knowledge Hub acts as a central brain for organizations, automatically capturing, categorizing, and surfacing critical knowledge while supporting team collaboration and decision-making.",
+    "whyChooseUs":
+      "We go beyond traditional tools by embedding AI-driven knowledge retrieval, task automation, and real-time collaboration insights, making work faster and smarter.",
+    "challenges":
+      "Large teams faced challenges in accessing scattered information, repeating tasks, and spending excessive time searching for the right resources.",
+    "solutions": ["AI-Powered Search", "Smart Task Automation", "Context-Aware Collaboration", "Unified Knowledge Base"],
+    "finalResult":
+      "Enterprises reduced information search time by 50% and improved project delivery speed by 30% through AI-driven knowledge intelligence and workflow automation."
   },
   {
   slug: "writesonic",

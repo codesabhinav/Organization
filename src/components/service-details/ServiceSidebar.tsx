@@ -51,7 +51,7 @@ function ServiceSidebar({ currentServiceSlug }: ServiceSidebarProps) {
         <h4 className="tz-service-details-sidebar__title">Company profile</h4>
         <div className="tz-service-details-sidebar__file-list">
           <Link
-            href="/AgniCore AI.pdf"
+            href="/Document_of_Business.pdf"
             download="Document_of_Business.pdf"
             className="tz-service-details-sidebar__file-item tz-text-l"
           >
