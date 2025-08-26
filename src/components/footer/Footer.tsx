@@ -5,6 +5,8 @@ import FooterSocial from "./FooterSocial";
 function Footer() {
   return (
     <>
+
+
       <footer className="tz-footer d-flex align-items-center justify-content-end">
         <div className="tz-footer__shape" />
         <img
@@ -22,7 +24,7 @@ function Footer() {
                     href="/"
                     className="tz-footer__logo tz-mb-lg-80 tz-mb-40"
                   >
-                    <img src="/site-logo.svg" alt="DigiFlow" />
+                   <img src="/images/file.svg" alt="AgniCore logo" className="site-logo" />
                   </Link>
                   <p className="tz-footer__tagline tz-text-l tz-text-neutral6 fw-light">
                     We're your trusted partner in maintaining and enhancing the
@@ -228,6 +230,7 @@ function Footer() {
           </div>
         </div>
       </footer>
+      
     </>
   );
 }

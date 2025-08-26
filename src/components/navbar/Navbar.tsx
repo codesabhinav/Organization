@@ -18,12 +18,41 @@ function Navbar() {
         setIsSticky(false);
       }
     };
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll);  
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (
     <>
+<style jsx>{`
+  .tz-header1__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.3); 
+    padding: 5px;
+  }
+
+  .site-logo {
+    width: 70px; 
+    height: auto;
+    max-width: 100px; 
+    border-radius: 8px; 
+    opacity: 0.85; 
+    transition: opacity 0.3s ease;
+  }
+
+  .site-logo:hover {
+    opacity: 1;
+  }
+
+  .tz-header1.sticky {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  }
+`}</style>
+
       <div>
         <BodyOverlay
           showOffcanvas={showOffcanvas}
@@ -40,8 +69,9 @@ function Navbar() {
               <div className="row">
                 <div className="col-4 col-lg-2">
                   <Link href="/" className="tz-header1__logo">
-                    <img src="/site-logo.svg" alt="site logo" />
-                  </Link>
+        <img src="/images/file.svg" alt="AgniCore logo" className="site-logo" />
+            </Link>
+
                 </div>
                 <div className="col-8 col-lg-10 text-end d-flex align-items-center justify-content-end justify-content-xl-center">
                   <div className="tz-header__desktop d-none d-xl-block tz-ml-auto tz-mr-auto">
