@@ -80,7 +80,7 @@ function Banner2() {
                 <div className="col-md-9">
                   <h5 className="tz-banner2__title tz-text-neutral5 follow-mouse">
                     YOUR VISION <br />
-                    MY CODE
+                    OUR CODE
                   </h5>
                   <p className="tz-banner2__desc tz-text-l follow-mouse">
                     We’re a team of expert designers, web developers and

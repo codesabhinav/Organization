@@ -17,22 +17,16 @@ function ContactForm() {
             <ContactInfoBox
               icon="ph-phone-call"
               title="Call US 24/7"
-              link="(316) 555-0116"
-              href="tel:23232424"
+              link="+91 9898649660"
+              href="tel:+919898649660"
             />
             <ContactInfoBox
               icon="ph-envelope-simple-open"
               title="Email Us Anytime"
-              link="tranthuy.nute@gmail.com"
-              href="mailto:tranthuy.nute@gmail.com"
+              link="info@agnicoreai.tech"
+              href="mailto:info@agnicoreai.tech"
             />
-            <ContactInfoBox
-              icon="ph-map-pin"
-              title="Our Location"
-              link="George Bush Intercontinental Airport"
-              href="#"
-              className="mb-0"
-            />
+           
           </div>
           <div className="col-lg-8">
             <div className="tz-contact-form">
