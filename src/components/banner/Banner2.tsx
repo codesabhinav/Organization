@@ -49,7 +49,7 @@ function Banner2() {
                 </div>
                 <p className="tz-banner2__desc tz-text-l follow-mouse">
                   We happy customer <br />
-                  word-wide
+                  world-wide
                 </p>
                 <div className="tz-banner1-highlight follow-mouse">
                   <div className="tz-banner1-highlight__avatars">

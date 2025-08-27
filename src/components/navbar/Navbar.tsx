@@ -69,7 +69,7 @@ function Navbar() {
               <div className="row">
                 <div className="col-4 col-lg-2">
                   <Link href="/" className="tz-header1__logo">
-        <img src="/images/file.svg" alt="AgniCore logo" className="site-logo" />
+        <img src="/images/agnicore.png" alt="AgniCore logo" className="site-logo" />
             </Link>
 
                 </div>

@@ -97,7 +97,7 @@ const Banner1 = React.memo(function Banner1() {
                   alt="img"
                   className="tz-banner1__image"
                 />
-                <Link href="/portfolio-2" className="tz-banner1__circle">
+                <Link href="/portfolio" className="tz-banner1__circle">
                   <img
                     src="https://digiflow-html.netlify.app/assets/images/banner/round-text.png"
                     alt=""

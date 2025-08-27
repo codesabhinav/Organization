@@ -12,14 +12,14 @@ export const menuSeed: MenuSeed = {
     },
     {
       title: "Services",
-      href: "/service-2",
+      href: "/service",
       // submenu: [
       //   { title: "Service Details", href: "/service-details" },
       // ],
     },
     {
       title: "Portfolio",
-      href: "/portfolio-2",
+      href: "/portfolio",
       // submenu: [
       //   { title: "Portfolio-1", href: "/portfolio-1" },
       //   { title: "Portfolio-2", href: "/portfolio-2" },

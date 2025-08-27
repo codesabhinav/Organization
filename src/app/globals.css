@@ -7751,6 +7751,12 @@ textarea:focus {
   background-color: #121212;
   padding: 15rem 0rem 0rem 0rem;
 }
+@media (max-width: 1440px) {
+  .tz-footer {
+    padding: 0rem 0rem 0rem 0rem;
+}
+}
+
 .tz-footer__shape {
   display: none;
 }

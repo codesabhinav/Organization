@@ -33,7 +33,7 @@ function About2() {
                       Beyond a Tech Company
                     </div>
                     <p className="tz-about2__desc tz-text-l tz-text-neutral6 fw-light">
-                    We’re not here to follow trends we’re here to create them. At [Your Company Name], we bring together passionate minds to design AI-driven and tech-powered solutions that make businesses smarter, faster, and ready for tomorrow.
+                    We’re not here to follow trends we’re here to create them. At Agnicoreai, we bring together passionate minds to design AI-driven and tech-powered solutions that make businesses smarter, faster, and ready for tomorrow.
                     </p>
                     <div className="row g-2 tz-pt-30 tz-pt-lg-60 tz-pb-20 tz-pb-lg-40">
                       <div className="col-md-6">
@@ -73,7 +73,7 @@ function About2() {
                 <img src="https://digiflow-html.netlify.app/assets/images/about/about2-img2.jpg" alt="img" />
                 <div className="tz-about2-experience__counter tz-text-neutral5 tz-pt-30 tz-pt-lg-60">
                   <h5 className="tz-about2-experience__number tz-cn">
-                    <CountUp end={25} enableScrollSpy={true} />
+                    <CountUp end={5} enableScrollSpy={true} />
                   </h5>
                   <span className="tz-about2-experience__plus">+</span>
                 </div>

@@ -24,7 +24,7 @@ function Footer() {
                     href="/"
                     className="tz-footer__logo tz-mb-lg-80 tz-mb-40"
                   >
-                   <img src="/images/file.svg" alt="AgniCore logo" className="site-logo" />
+                   <img src="/images/agnicore.png" alt="AgniCore logo" className="site-logo" />
                   </Link>
                   <p className="tz-footer__tagline tz-text-l tz-text-neutral6 fw-light">
                     We're your trusted partner in maintaining and enhancing the
@@ -35,11 +35,11 @@ function Footer() {
               </div>
               <div className="col-xl-8">
                 <div className="tz-footer-right">
-                  <img
+                  {/* <img
                     src="https://digiflow-html.netlify.app/assets/images/footer/shadow-brand-title.png"
                     alt="shadow-img"
                     className="tz-footer__shadow"
-                  />
+                  /> */}
                   <div className="tz-footer-right__content">
                     <div className="tz-footer__nav">
                       <div className="tz-footer__menu tz-text-l">
@@ -124,7 +124,7 @@ function Footer() {
                                 href="/service-details/software-development"
                                 className="tz-footer__link tz-text-l"
                               >
-                               software-development
+                               Software Development
                               </Link>
                             </li>
                             <li>
@@ -132,7 +132,7 @@ function Footer() {
                                 href="/service-details/digital-marketing"
                                 className="tz-footer__link tz-text-l"
                               >
-                                digital-marketing
+                                Digital Marketing
                               </Link>
                             </li>
                             <li>
@@ -140,7 +140,7 @@ function Footer() {
                                 href="/service-details/erp-development"
                                 className="tz-footer__link tz-text-l"
                               >
-                                erp-development
+                                Erp Development
                               </Link>
                             </li>
                              <li>
@@ -180,7 +180,7 @@ function Footer() {
                                 href="/faq"
                                 className="tz-footer__link tz-text-l"
                               >
-                                Faq
+                                FAQ
                               </Link>
                             </li>
                             {/* <li>
@@ -200,12 +200,12 @@ function Footer() {
                               </Link>
                             </li> */}
                             <li>
-                              <Link
+                              {/* <Link
                                 href="/faq"
                                 className="tz-footer__link tz-text-l"
                               >
                                 Privacy Policy
-                              </Link>
+                              </Link> */}
                             </li>
                           </ul>
                         </div>

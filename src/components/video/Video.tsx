@@ -7,13 +7,14 @@ function Video({ bgColor = "#121212" }: { bgColor?: string }) {
       <div className="container">
         <div className="tz-video1__wrapper">
           <img
-            src="https://digiflow-html.netlify.app/assets/images/video/video-img1.jpg"
+            src="Picture2.png"
+            style={{width:"100%"}}
             alt="img"
             className="tz-video1__image"
           />
           <Link
             className="tz-button__ripple popup-video"
-            href="https://www.youtube.com/watch?v=MLpWrANjFbI"
+            href="https://youtube.com/shorts/M_lprl9mqwU?si=IVycaqves5utTIHB"
           >
             <i className="ph-fill ph-play" />
           </Link>

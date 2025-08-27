@@ -9,6 +9,7 @@ interface ContactInfoBoxProps {
   className?: string;
 }
 
+
 function ContactInfoBox({
   icon,
   title,
@@ -27,6 +28,8 @@ function ContactInfoBox({
           {link}
         </Link>
       </div>
+     
+      
     </div>
   );
 }

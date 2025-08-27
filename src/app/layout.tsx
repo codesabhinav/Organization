@@ -21,9 +21,9 @@ const teko = Teko({
 });
 
 export const metadata: Metadata = {
-  title: "DigiFlow | Digital Agency Next JS Template",
+  title: "Agnicoreai | Digital Agency",
   description:
-    "Digiflow is a professionally designed Figma template tailored for Digital Agency websites! Whether you're building a site for any business related to agency, business, digital agency, and portfolio website, Pixelo provides modern, clean, and fully customizable templates to help you create an impactful online presence. Its user-friendly design ensures an effortless and smooth design process for developers and designers alike.",
+    "Agnicoreai is a professionally designed Figma template tailored for Digital Agency websites! Whether you're building a site for any business related to agency, business, digital agency, and portfolio website, Pixelo provides modern, clean, and fully customizable templates to help you create an impactful online presence. Its user-friendly design ensures an effortless and smooth design process for developers and designers alike.",
 };
 
 export default function RootLayout({

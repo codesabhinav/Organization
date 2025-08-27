@@ -7,32 +7,26 @@ export type FaqItemType = {
 export const faqItems: FaqItemType[] = [
   {
     id: "One",
-    question: "What services does your agency offer?",
+    question: "What services does your IT company provide?",
     answer:
-      "If you're looking to improve your online presence, reach more customers, or streamline your digital operations, a digital agency can help. Whether you're a startup or an established business, we tailor our services to meet your unique needs.",
+      "We offer end-to-end IT solutions including software development, cloud services, AI integration, IT consulting, web & mobile app development, cybersecurity, and managed IT support.",
   },
   {
     id: "Two",
-    question: "What's your process for working with clients?",
+    question: "Do you work with small businesses or only large enterprises?",
     answer:
-      "If you're looking to improve your online presence, reach more customers, or streamline your digital operations, a digital agency can help. Whether you're a startup or an established business, we tailor our services to meet your unique needs.",
+      "We support startups, SMEs, and enterprises alike. Our solutions are scalable and tailored to your business size and budget.",
   },
   {
     id: "Three",
-    question: "How do I know if I need a digital agency?",
+    question: "How do you ensure data security?",
     answer:
-      "If you're looking to improve your online presence, reach more customers, or streamline your digital operations, a digital agency can help. Whether you're a startup or an established business, we tailor our services to meet your unique needs.",
+      "We follow industry-standard security practices such as data encryption, firewalls, access control, and regular audits. Compliance with GDPR, HIPAA, or other regulations can also be maintained as per client needs.",
   },
   {
     id: "Four",
-    question: "How involved do I need to be in the process?",
+    question: "What technologies do you specialize in?",
     answer:
-      "If you're looking to improve your online presence, reach more customers, or streamline your digital operations, a digital agency can help. Whether you're a startup or an established business, we tailor our services to meet your unique needs.",
-  },
-  {
-    id: "Five",
-    question: "How long does it take to complete a project?",
-    answer:
-      "If you're looking to improve your online presence, reach more customers, or streamline your digital operations, a digital agency can help. Whether you're a startup or an established business, we tailor our services to meet your unique needs.",
-  },
+      "Our team works with a wide stack including Java, Python, Node.js, React, Angular, PHP, .NET, AWS, Azure, Google Cloud, AI/ML frameworks, and more.",
+  }
 ];

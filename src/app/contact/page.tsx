@@ -18,7 +18,7 @@ Contact Us"
       />
       <HeaderSlider />
       <ContactForm />
-      <Map />
+      
       <Subscribe1 spacingClass="tz-mt-lg-120" />
     </>
   );
