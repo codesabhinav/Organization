@@ -117,7 +117,7 @@ function Banner2() {
             alt=""
           />
           <div className="tz-banner2__social">
-            {/* <BannerSocial /> */}
+            <BannerSocial />
           </div>
         </div>
       </div>

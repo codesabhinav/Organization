@@ -31,7 +31,7 @@ function Footer() {
                     performance
                   </p>
                 </div>
-                {/* <FooterSocial /> */}
+                <FooterSocial />
               </div>
               <div className="col-xl-8">
                 <div className="tz-footer-right">
@@ -216,12 +216,11 @@ function Footer() {
                       <div className="tz-footer__copyright tz-text-l">
                         Copyright © 2025 AgnicoreAI
                       </div>
-                      {/* <div className="tz-footer__credits tz-text-l">
-                        Designed By 
+                      <div className="tz-footer__credits tz-text-l">
                         <Link href="/" className="tz-footer__credit-link">
-                           Om Chevli
+                           info@agnicoreai.tech
                         </Link>
-                      </div> */}
+                      </div>
                     </div>
                   </div>
                 </div>
