@@ -109,7 +109,7 @@ const WhoWeAre = React.memo(function WhoWeAre({
                         </span>
                       </div>
                       <div className="tz-wwa1-experience__text text-uppercase tz-text-xl">
-                        EXPERIENCE ENGINEERING MEMBERS
+                      Hours of Engineering Expertise
                       </div>
                     </div>
                   </div>

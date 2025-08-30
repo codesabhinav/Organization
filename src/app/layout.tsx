@@ -21,7 +21,7 @@ const teko = Teko({
 });
 
 export const metadata: Metadata = {
-  title: "Agnicoreai | Digital Agency",
+  title: "Agnicoreai | IT Digital",
   description:
     "Agnicoreai is a professionally designed Figma template tailored for Digital Agency websites! Whether you're building a site for any business related to agency, business, digital agency, and portfolio website, Pixelo provides modern, clean, and fully customizable templates to help you create an impactful online presence. Its user-friendly design ensures an effortless and smooth design process for developers and designers alike.",
 };

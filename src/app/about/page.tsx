@@ -51,10 +51,10 @@ function Page() {
               </h3>
               <p className="text-secondary fs-6 fs-md-5 lh-base lh-md-lg">
                 We design optimized AI solutions that harness the power of
-                multi-core processing. Our MCP-based frameworks ensure that
-                enterprises can handle heavy AI workloads—such as real-time
+                multi core processing. Our MCP based frameworks ensure that
+                enterprises can handle heavy AI workloads such as real-time
                 analytics, predictive modeling, and autonomous decision
-                systems—without bottlenecks. This enables organizations to achieve
+                systems without bottlenecks. This enables organizations to achieve
                 faster insights, lower latency, and more cost-effective deployment
                 of their AI strategies.
               </p>
@@ -67,7 +67,7 @@ function Page() {
                 ecosystem, ensuring that models, data pipelines, and user interfaces
                 are seamlessly connected. This approach simplifies development,
                 accelerates deployment, and makes AI products more user-friendly and
-                enterprise-ready. Our MVC-driven frameworks empower developers to
+                enterprise ready. Our MVC-driven frameworks empower developers to
                 build modular, scalable, and maintainable AI applications at speed.
               </p>
               <h3 className="h2 h5-md fw-semibold  mt-4" style={{color:'#c9f31d'}}>
@@ -75,8 +75,8 @@ function Page() {
               </h3>
               <p className="text-secondary fs-6 fs-md-5 lh-base lh-md-lg">
                 Language is the foundation of intelligence, and AgnicoreAI
-                specializes in building and fine-tuning Large Language Models (LLMs)
-                tailored to industry-specific needs. From conversational AI to
+                specializes in building and fine tuning Large Language Models (LLMs)
+                tailored to industry specific needs. From conversational AI to
                 knowledge assistants and automated content generation, our LLM
                 solutions enable businesses to leverage the power of natural
                 language in meaningful ways. By combining domain-specific training

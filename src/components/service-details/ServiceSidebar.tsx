@@ -64,7 +64,7 @@ function ServiceSidebar({ currentServiceSlug }: ServiceSidebarProps) {
           Book A Free Consultation
         </h4>
         <p className="tz-service-details-sidebar__desc tz-text-m tz-text-neutral6 fw-light">
-          We always available to discus with you
+          We always available to discuss with you
         </p>
         <div className="tz-buttons">
           <Link

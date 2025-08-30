@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: ServiceDetailsPageProps) {
   }
 
   return {
-    title: `${serviceData.title} - DigiFlow`,
+    title: `${serviceData.title} - AgnicoreAI`,
     description: serviceData.description,
     keywords: `${serviceData.title}, ${serviceData.features.join(", ")}`,
     openGraph: {
