@@ -1,0 +1,22 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/404/page": "app/404/page.js",
+  "/blog-details/page": "app/blog-details/page.js",
+  "/blog/page": "app/blog/page.js",
+  "/about/page": "app/about/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/faq/page": "app/faq/page.js",
+  "/home-2/page": "app/home-2/page.js",
+  "/page": "app/page.js",
+  "/portfolio-1/page": "app/portfolio-1/page.js",
+  "/portfolio/page": "app/portfolio/page.js",
+  "/pricing/page": "app/pricing/page.js",
+  "/service-1/page": "app/service-1/page.js",
+  "/service-details/page": "app/service-details/page.js",
+  "/service/page": "app/service/page.js",
+  "/team-details/page": "app/team-details/page.js",
+  "/team/page": "app/team/page.js",
+  "/portfolio-details/[slug]/page": "app/portfolio-details/[slug]/page.js",
+  "/service-details/[slug]/page": "app/service-details/[slug]/page.js"
+}

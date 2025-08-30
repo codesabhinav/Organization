@@ -1,0 +1,22 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/favicon.ico/route": "/favicon.ico",
+  "/404/page": "/404",
+  "/blog-details/page": "/blog-details",
+  "/blog/page": "/blog",
+  "/about/page": "/about",
+  "/contact/page": "/contact",
+  "/faq/page": "/faq",
+  "/home-2/page": "/home-2",
+  "/page": "/",
+  "/portfolio-1/page": "/portfolio-1",
+  "/portfolio/page": "/portfolio",
+  "/pricing/page": "/pricing",
+  "/service-1/page": "/service-1",
+  "/service-details/page": "/service-details",
+  "/service/page": "/service",
+  "/team-details/page": "/team-details",
+  "/team/page": "/team",
+  "/portfolio-details/[slug]/page": "/portfolio-details/[slug]",
+  "/service-details/[slug]/page": "/service-details/[slug]"
+}
